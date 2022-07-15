@@ -14,6 +14,6 @@ docker run -it --rm --privileged --name ${ADDON_NAME} \
         --git \
         --all \
         --from "homeassistant/{arch}-base" \
-        --author "Jason Titter <jason.titter@matilda.network" \
+        --author "Jason Titter <jason.titter@gmail.com>" \
         --doc-url "${GITHUB_URL}"
 echo "Local Docker build successful."

@@ -17,7 +17,7 @@ map:
   - backup
   - share
 options:
-  oauth_access_token: "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"
+  oauth_access_token: "<DROPBOX_TOEN>"
   output: ""
 schema:
   oauth_access_token: str

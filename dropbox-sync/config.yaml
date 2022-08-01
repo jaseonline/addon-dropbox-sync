@@ -17,7 +17,7 @@ map:
 - backup
 - share
 options:
-  oauth_access_token: "<YOUR_ACCESS_TOKEN>"
+  oauth_access_token: "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"
   output: ''
 schema:
   oauth_access_token: str

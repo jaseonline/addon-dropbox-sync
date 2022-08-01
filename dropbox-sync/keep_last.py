@@ -5,8 +5,9 @@ import requests
 from dateutil.parser import parse
 import pytz
 
-BASE_URL = "http://my.home-assistant.io/"
-HEADERS = {"X-HASSIO-KEY": os.environ.get("HASSIO_TOKEN")}
+BASE_URL = "http://supervisor/"
+# HEADERS = {"X-HASSIO-KEY": os.environ.get("HASSIO_TOKEN")}
+HEADERS = {Authorization: Bearer $SUPERVISOR_TOKEN}
 
 
 def main(number_to_keep):
